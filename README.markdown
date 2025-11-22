@@ -36,12 +36,12 @@ The database is logically organized into **three schemas**:
 
 | Table                     | Description                                      |
 |--------------------------|--------------------------------------------------|
-| `administration.Customers`     | Company clients and contact info                |
+| `administration.Customers`      | Company clients and contact info                |
 | `logistics.Warehouses`          | Storage facilities with location and capacity   |
 | `logistics.Drivers`             | Licensed drivers with status and license info   |
 | `logistics.Vehicles`            | Trucks and vans with status (Available/In Use)  |
 | `logistics.Routes`              | Predefined delivery routes                      |
-| `operations.Shipments`          | Core shipments with status and timestamps      |
+| `operations.Shipments`          | Core shipments with status and timestamps       |
 | `operations.Cargo`              | Items inside each shipment                      |
 | `operations.ShipmentAuditLog`   | Full history of status changes (who/when/what)  |
 
@@ -164,5 +164,9 @@ This project is open source and available under the **MIT License**.
 
 ---
 
-**Built with passion for SQL Server and clean database design**  
-Feel free to use this as a learning resource, template, or portfolio project!
+**Built with passion for SQL Server and clean database design**
+
+## Screenshots
+
+<img src="https://github.com/NelaniMaluka/TransGlobalLogisticsDB/blob/main/Screenshot1.png" alt="Home Screen" width="900"/>
+<img src="https://github.com/NelaniMaluka/TransGlobalLogisticsDB/blob/main/Screenshot2.png" alt="Home Screen" width="900"/>
