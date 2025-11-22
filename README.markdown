@@ -1,4 +1,4 @@
-# TransGlobal Logistics Database  
+# Transport Global Logistics Database  
 **A Complete SQL Server Database Project for a Fictional Global Logistics Company**
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
