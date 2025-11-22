@@ -1,4 +1,4 @@
-# TransGlobal Logistics Database  
+# Transport Global Logistics Database  
 **A Complete SQL Server Database Project for a Fictional Global Logistics Company**
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
@@ -7,7 +7,7 @@
 
 This is a **full-featured SQL Server database project** I built from scratch to practice and showcase real-world database design, T-SQL scripting, relationships, constraints, stored procedures, and production-ready patterns.
 
-The fictional company — **TransGlobal Logistics** — manages customers, warehouses, vehicles, drivers, routes, shipments, and cargo worldwide.
+The fictional company — **Transport Global Logistics** — manages customers, warehouses, vehicles, drivers, routes, shipments, and cargo worldwide.
 
 ---
 
@@ -85,19 +85,12 @@ EXEC operations.sp_UpdateShipmentStatus
 ## Project Structure
 
 ```
-/TransGlobalLogisticsDB
-│
-├── Phase 2 - Foundation
-│   ├── 01_Create_Database_and_Schemas.sql
-│   ├── 02_Create_Tables.sql
-│   ├── 03_Insert_Sample_Data.sql
-│   └── 04_Analysis_Queries.sql
-│
-└── Phase 3 - Advanced Features
-    └── Stored_Procedures/
-        ├── sp_CreateNewShipment.sql
-        ├── sp_AssignVehicleToShipment.sql
-        └── sp_UpdateShipmentStatus.sql
+/Transport-Global-Logistics-DB
+├── README.markdown
+├── SQLQueries.sql
+├── Screenshot1.png
+├── Screenshot2.png
+└── Transport-Global-Logistics-ERD.drawio
 ```
 
 ---
